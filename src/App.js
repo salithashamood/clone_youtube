@@ -1,25 +1,37 @@
-import logo from './logo.svg';
 import './App.css';
+import React, { useEffect, useState } from 'react';
+import HomePage from './Pages/HomePage/HomePage';
+import { BrowserRouter } from 'react-router-dom';
 
 function App() {
-  return (
-    <div className="App">
-      <header className="App-header">
-        <img src={logo} className="App-logo" alt="logo" />
-        <p>
-          Edit <code>src/App.js</code> and save to reload.
-        </p>
-        <a
-          className="App-link"
-          href="https://reactjs.org"
-          target="_blank"
-          rel="noopener noreferrer"
-        >
-          Learn React
-        </a>
-      </header>
-    </div>
-  );
+
+    const isBrowserDefaultDark = () => window.matchMedia('(prefers-color-scheme: dark)').matches;
+
+    // const [theme] = useState(isBrowserDefaultDark() ? 'light' : 'light');
+    const [theme] = useState(isBrowserDefaultDark() ? 'dark' : 'light');
+
+    // const toggleTheme = () => {
+    //     if (theme === 'light') {
+    //         setTheme('dark');
+    //     } else {
+    //         setTheme('light');
+    //     }
+    // };
+
+    useEffect(() => {
+        document.body.className = theme;
+    }, [theme]);
+
+    return (
+        <BrowserRouter>
+            <div className={`${theme}`} >
+                {/*<button onClick={toggleTheme}>Toggle Theme</button>*/}
+                <HomePage theme = {theme}/>
+
+            </div>
+        </BrowserRouter>
+
+    );
 }
 
 export default App;

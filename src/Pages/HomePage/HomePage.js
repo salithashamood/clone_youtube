@@ -1,0 +1,92 @@
+import React from 'react';
+import NavBarComponent from '../../Components/Header/Header';
+
+
+export default function HomePage({theme}) {
+    return (
+        <div>
+            <NavBarComponent theme = {theme}/>
+            <h1>fdgfgfhh</h1>
+            <h1>fdgfgfhh</h1>
+            <h1>fdgfgfhh</h1>
+            <h1>fdgfgfhh</h1>
+            <h1>fdgfgfhh</h1>
+            <h1>fdgfgfhh</h1>
+            <h1>fdgfgfhh</h1>
+            <h1>fdgfgfhh</h1>
+            <h1>fdgfgfhh</h1>
+            <h1>fdgfgfhh</h1>
+            <h1>fdgfgfhh</h1>
+            <h1>fdgfgfhh</h1>
+            <h1>fdgfgfhh</h1>
+            <h1>fdgfgfhh</h1>
+            <h1>fdgfgfhh</h1>
+            <h1>fdgfgfhh</h1>
+            <h1>fdgfgfhh</h1>
+            <h1>fdgfgfhh</h1>
+            <h1>fdgfgfhh</h1>
+            <h1>fdgfgfhh</h1>
+            <h1>fdgfgfhh</h1>
+            <h1>fdgfgfhh</h1>
+            <h1>fdgfgfhh</h1>
+            <h1>fdgfgfhh</h1>
+            <h1>fdgfgfhh</h1>
+            <h1>fdgfgfhh</h1>
+            <h1>fdgfgfhh</h1>
+            <h1>fdgfgfhh</h1>
+            <h1>fdgfgfhh</h1>
+            <h1>fdgfgfhh</h1>
+            <h1>fdgfgfhh</h1>
+            <h1>fdgfgfhh</h1>
+            <h1>fdgfgfhh</h1>
+            <h1>fdgfgfhh</h1>
+            <h1>fdgfgfhh</h1>
+            <h1>fdgfgfhh</h1>
+            <h1>fdgfgfhh</h1>
+            <h1>fdgfgfhh</h1>
+            <h1>fdgfgfhh</h1>
+            <h1>fdgfgfhh</h1>
+            <h1>fdgfgfhh</h1>
+            <h1>fdgfgfhh</h1>
+            <h1>fdgfgfhh</h1>
+            <h1>fdgfgfhh</h1>
+            <h1>fdgfgfhh</h1>
+            <h1>fdgfgfhh</h1>
+            <h1>fdgfgfhh</h1>
+            <h1>fdgfgfhh</h1>
+            <h1>fdgfgfhh</h1>
+            <h1>fdgfgfhh</h1>
+            <h1>fdgfgfhh</h1>
+            <h1>fdgfgfhh</h1>
+            <h1>fdgfgfhh</h1>
+            <h1>fdgfgfhh</h1>
+            <h1>fdgfgfhh</h1>
+            <h1>fdgfgfhh</h1>
+            <h1>fdgfgfhh</h1>
+            <h1>fdgfgfhh</h1>
+            <h1>fdgfgfhh</h1>
+            <h1>fdgfgfhh</h1>
+            <h1>fdgfgfhh</h1>
+            <h1>fdgfgfhh</h1>
+            <h1>fdgfgfhh</h1>
+            <h1>fdgfgfhh</h1>
+            <h1>fdgfgfhh</h1>
+            <h1>fdgfgfhh</h1>
+            <h1>fdgfgfhh</h1>
+            <h1>fdgfgfhh</h1>
+            <h1>fdgfgfhh</h1>
+            <h1>fdgfgfhh</h1>
+            <h1>fdgfgfhh</h1>
+            <h1>fdgfgfhh</h1>
+            <h1>fdgfgfhh</h1>
+            <h1>fdgfgfhh</h1>
+            <h1>fdgfgfhh</h1>
+            <h1>fdgfgfhh</h1>
+            <h1>fdgfgfhh</h1>
+            <h1>fdgfgfhh</h1>
+            <h1>fdgfgfhh</h1>
+            <h1>fdgfgfhh</h1>
+            <h1>fdgfgfhh</h1>
+        </div>
+    );
+}
